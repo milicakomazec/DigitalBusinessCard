@@ -23,8 +23,22 @@ const Page = () => {
           />
           <TitleText text="laurasmith.website" color="white" fontSize="10px" />
           <div className="btn-container">
-            <Button text="Email" backgroundColor="white" color="black" />
-            <Button text="Linkedin" backgroundColor="#5093E2" color="white" />
+            <Button
+              text="Email"
+              style={{
+                backgroundColor: "white",
+                color: "black",
+                marginLeft: "20px",
+              }}
+            />
+            <Button
+              text="Linkedin"
+              style={{
+                backgroundColor: "#5093E2",
+                color: "white",
+                marginRight: "20px",
+              }}
+            />
           </div>
           <div className="text-content-container">
             <TextContent

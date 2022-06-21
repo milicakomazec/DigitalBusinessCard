@@ -1,0 +1,11 @@
+.footer-container {
+  display: flex;
+  width: 100%;
+  margin-top: auto;
+  justify-content: center;
+  gap: 20px;
+  background-color: black;
+  padding: 10px 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
